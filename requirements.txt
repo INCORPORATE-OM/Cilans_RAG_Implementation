@@ -1,0 +1,16 @@
+langchain
+langchain-community
+google-genai
+sentence-transformers
+pytesseract
+Pillow
+pymupdf
+indic-transliteration
+langdetect
+tiktoken
+python-dotenv
+fastapi
+uvicorn
+streamlit
+chromadb
+torchvision

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+rag_env/
+venv/
+.env_backup
+
+# Environment / Secrets — NEVER commit these
+.env
+
+# Chroma vector DB (auto-generated, can be rebuilt with main.py ingest)
+chroma_db/
+
+# OCR / processing output (auto-generated)
+output/
+
+# PDF source files (often large / proprietary)
+*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch / HuggingFace model caches
+*.bin
+*.pt
+*.pth
+*.safetensors
+.cache/
+huggingface_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
